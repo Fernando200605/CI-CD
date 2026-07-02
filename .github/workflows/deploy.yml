@@ -23,4 +23,4 @@ jobs:
             - name: Ejecutar Pruebas con pytest
               run: |
                 cd Sena
-                pytest apl/test.py --ds=config.settings
+                pytest apl/tests.py --ds=config.settings
